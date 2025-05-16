@@ -56,3 +56,36 @@ Assumptions for Multiple Linear Regression:
     Equation: Sales = β0 + (β1 * TV) + (β2 * Radio) + (β3 * Newspaper)
 
 _______________________________________________________________________________________________________________________
+
+# Poject Explaination
+    
+
+    1. Data Understanding, Cleaning and Transformation
+        Understand what is data about and why do you think the data was collected, and what research questions data can answers.
+        
+            (a) You can explain your logic in the text cell of your notebook.
+            
+            (b) Based on your research questions Identify Dependent and Independent Variables.
+            
+            (c) Use pandas to load your dataset and observe the data. If required perform basic data cleaning and Transformation the way you fits your task requirements.
+
+    1.1 Data Understanding
+        This problem involves using regression to analyze the effect of different types of advertising on sales. The parameters of the advertising, such as TV, Radio, Social Media, and Influencer, will be used to predict the sales. Regression can be used to quantify the relationship between the different types of advertising and the sales, and to predict the sales given the different parameters of advertising.
+    
+        Data Information
+        
+            The data at hand has three features about the spending on advertising, and the target variable is the net sales.
+            
+            TV - Independent variable quantifying budget for TV ads
+            Radio - Independent variable quantifying budget for radio ads
+            Social Media - Independent variable quantifying budget for social media ads
+            Influencer - Independent variable quantifying budget for Influencer marketing
+            Sales - Dependent variable
+            The data was collected in order to understand the effect of advertisement on sales, and to predict the sales given the different parameters of advertising.
+
+    Research questions data can answer:
+    
+        What is the effect of advertisement on sales?
+        How much money should be spent on each advertisement channel in order to maximize sales?
+        What is the best combination of advertisement channels to maximize sales?
+        How accurately can sales be predicted given the different parameters of advertising?
